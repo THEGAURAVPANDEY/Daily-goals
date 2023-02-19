@@ -1,0 +1,67 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+.container {
+  background-color: #fff;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin: 30px;
+}
+input,
+textarea,
+button {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font: 100 1.2rem "Gill Sans";
+  border-radius: 5px;
+  outline: none;
+  margin: 10px;
+}
+button {
+  background-color: rgb(80, 77, 77);
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(97, 26, 145);
+}
+.task {
+  background-color: rgb(209, 201, 201);
+  padding: 20px;
+  font: 100 1.2rem "Gill Sans";
+  color: rgb(51, 50, 50);
+  display: flex;
+  align-items: center;
+  margin: 2vmax;
+}
+.task span {
+  color: rgb(141, 139, 139);
+}
+.task > div {
+  width: 100%;
+}
+.deleteBtn {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
